@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@theme {
+  --color-brand: #d90429;
+  --color-brand-accent: #ef233c;
+  --color-dark: #2b2d42;
+  --color-paynes-gray: #5c6378;
+  --color-cool-gray: #8d99ae;
+  --color-light: #edf2f4;
+}
+
+/* Paleta reduzida (apenas as seis cores definidas) */
+:root {
+  --space-cadet: #2b2d42ff;
+  --paynes-gray: #5c6378ff;
+  --cool-gray: #8d99aeff;
+  --antiflash-white: #edf2f4ff;
+  --red-pantone: #ef233cff;
+  --fire-engine-red: #d90429ff;
+  --green-pantone: #28bc34;
+  --font-roboto: Roboto, Helvetica, Arial, sans-serif;
+  --font-goldman: Goldman, sans-serif;
+}
+
+/* Definição de uso padrão: fundo claro e texto escuro (pode ajustar conforme quiser) */
+body {
+  background: var(--antiflash-white);
+  color: var(--space-cadet);
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* Textos padrão usam Roboto; .goldman-bold permanece para destaques/títulos específicos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+p,
+li,
+span,
+button,
+input,
+textarea,
+small,
+label {
+  font-weight: 600;
+}
+
+.font-goldman {
+  font-family: var(--font-goldman);
+}
+
+/* Removido: utilitárias custom de cores (usar tokens do tema Tailwind: text-brand, bg-brand, text-dark, etc.) */
+
+
+
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 12px;
+  box-shadow: 5px 6px 6px 2px rgba(0, 0, 0, 0.1);
+  overflow:hidden;
+  transition:
+    background-color 240ms ease,
+    color 240ms ease,
+    box-shadow 240ms ease,
+    transform 200ms ease;
+}
+
+.Card:hover {
+  transform: scale(1.1);
+  box-shadow: 12px 16px 12px 4px rgba(0, 0, 0, 0.12);
+}
+

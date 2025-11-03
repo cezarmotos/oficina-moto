@@ -9,7 +9,7 @@ const Banner: React.FC = () => {
   const label = years === 1 ? "ano" : "anos";
   return (
     <div
-      className={`relative w-full min-h-[360px] sm:min-h-[420px] md:min-h-[640px] overflow-hidden border-b border-black/10`}
+      className={`relative w-full min-h-[280px] sm:min-h-[420px] md:min-h-[640px] overflow-hidden border-b border-black/10`}
     >
       <Image
         src="/images/banner.webp"
@@ -32,7 +32,7 @@ const Banner: React.FC = () => {
           <p className="text-light text-lg sm:text-xl px-2">
             {years} {label} de experiência
           </p>
-          <div className="text-light text-4xl sm:text-5xl md:text-7xl tracking-tight font-goldman leading-tight">
+          <div className="text-light text-[32px] sm:text-5xl md:text-7xl tracking-tight font-goldman leading-tight">
             <p>Elétrica, Eletrônica &</p>
             <p>Rebobinagem</p>
           </div>

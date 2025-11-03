@@ -2,7 +2,7 @@ import CardCategory from "./CardCategory";
 
 const ListCategory: React.FC = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 sm:gap-6 md:flex md:justify-center sm:mt-[100px] md:my-[-100px] px-4 z-5 mb-24">
+    <div className="grid grid-cols-2 gap-4 sm:gap-6 md:flex md:justify-center sm:my-[100px] md:my-[100px] px-4 z-5 mb-24">
       <div className="flex justify-center p-2">
         <CardCategory
           imageSrc="/images/bobinas.webp"

@@ -29,8 +29,8 @@ const CardCategory: React.FC<ICardCategoryProps> = ({
         )}
       </div>
       <div className="flex flex-1 flex-col p-3 sm:p-4 gap-2">
-        <div className="text-dark font-bold text-lg sm:text-2xl">{title}</div>
-        <div className="text-gray/800 text-sm sm:text-base leading-5 break-words">
+        <div className="text-dark font-bold text-[14px] sm:text-2xl">{title}</div>
+        <div className="text-gray/800 text-[12px] sm:text-base leading-5 break-words">
           {description}
         </div>
       </div>

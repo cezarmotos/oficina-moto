@@ -7,6 +7,7 @@ export const metadata = {
 
 export default function BobinasPage() {
   const items: CarouselItem[] = [
+    { src: "/images/bobinasAll.webp", alt: "Conjunto de bobinas" },
     { src: "/images/bobinas.webp", alt: "Conjunto de bobinas" },
     { src: "/images/bobina.webp", alt: "Detalhe de bobina" },
     {

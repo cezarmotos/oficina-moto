@@ -13,7 +13,7 @@ export default function HistoriaPage() {
         <div className="flex items-center justify-center w-full max-w-[22.5rem]">
           <figure className="group relative overflow-hidden rounded-xl w-full">
             <Image
-              src="/images/cezar.webp"
+              src="/images/cezar2.webp"
               alt="Profissional em atividade na bancada"
               width={600}
               height={600}
@@ -24,35 +24,11 @@ export default function HistoriaPage() {
         </div>
         <div className="flex h-full items-center justify-center w-full max-w-[22.5rem] p-4 bg-white rounded-lg">
           <div className="flex flex-col text-justify">
-            <p className="text-xl text-paynes-gray">
+            <p className="text-[16px] sm:text-xl text-paynes-gray">
               Desde 1990, atuamos no conserto de componentes elétricos e eletrônicos, com foco em
-              motos acima de 300cc e também em barcos, quadriciclos e jet skis.
-            </p>
-            <p className="mt-3 text-xl text-paynes-gray">
-              Hoje somos referência profissional consolidada no ramo de eletrônica automotiva.
+              motos nacionais e importadas, também em barcos, quadriciclos e jet skis.
             </p>
           </div>
-        </div>
-        <div className="flex h-full items-center justify-center w-full max-w-[22.5rem] p-4 bg-white rounded-lg">
-          <div className="flex flex-col items-center justify-center text-justify">
-            <p className="text-xl text-paynes-gray">
-              Desde então nos especializamos em elétrica, bobinagem e injeção eletrônica, atuando na
-              recuperação de bobinas, reguladores de voltagem, arranques, CDI, módulos de injeção
-              eletrônica e painéis (digitais e analógicos).
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center w-full max-w-[22.5rem]">
-          <figure className="group relative overflow-hidden rounded-xl w-full">
-            <Image
-              src="/images/cezar2.webp"
-              alt="Profissional em atividade na bancada"
-              width={600}
-              height={600}
-              className="object-cover"
-              priority={false}
-            />
-          </figure>
         </div>
       </div>
     </section>
